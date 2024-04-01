@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(197, 197, 176);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+main {
+    width: 250px;
+    height: 400px;
+    background-color: rgb(61, 60, 60);
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 2px 3px 0 black;
+}
+
+main p {
+    background-color: white;
+    opacity: 0.7;
+    height: 50px;
+    text-align: right;
+    padding: 20px;
+    font-size: 32px;
+    margin-bottom: 20px;
+    margin: 9px 21px 90px;
+    box-shadow: 15px;
+    border-radius: 3px;
+    box-shadow: 2px 3px 0 #000000;
+}
+
+main button {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(32, 32, 32);   
+    color: white;
+}
+
+main button:hover {
+    background-color: rgb(21, 22, 22);
+    transition: 0.6s;
+}
+
+main button:active {
+    background-color: rgb(19, 18, 18);
+    transition: 0.4s;
+    outline: 2px solid white;
+}
+
+#botao-zero {
+    width: 102px;
+}
+
+#botao-resultado {
+    height: 102px;
+    background: rgb(131, 26, 26) ;
+}
+
+#botao-resultado:hover {
+    background-color:rgb(148, 21, 21) ;
+    transition: 0.6s;
+}
